@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 import re
+
 from dotenv import load_dotenv
 
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -28,7 +29,9 @@ load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 if not GOOGLE_API_KEY:
-    st.error("GOOGLE_API_KEY is missing from the .env file.")
+    st.error(
+        "GOOGLE_API_KEY is missing from the .env file."
+    )
     st.stop()
 
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
@@ -38,30 +41,33 @@ os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 # CUSTOM CSS
 # =========================================================
 
-st.markdown("""
-<style>
+st.markdown(
+    """
+    <style>
 
-.main-title {
-    font-size: 42px;
-    font-weight: 700;
-    margin-bottom: 5px;
-}
+    .main-title {
+        font-size: 42px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
 
-.subtitle {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 25px;
-}
+    .subtitle {
+        font-size: 18px;
+        color: #666;
+        margin-bottom: 25px;
+    }
 
-.recipe-card {
-    padding: 20px;
-    border-radius: 12px;
-    border: 1px solid #ddd;
-    margin-bottom: 15px;
-}
+    .recipe-card {
+        padding: 20px;
+        border-radius: 12px;
+        border: 1px solid #ddd;
+        margin-bottom: 15px;
+    }
 
-</style>
-""", unsafe_allow_html=True)
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 
 # =========================================================
@@ -125,7 +131,10 @@ st.markdown(
 
 INGREDIENTS = [
 
-    # Meat / Seafood
+    # ---------------------------------------------------------
+    # MEAT / SEAFOOD
+    # ---------------------------------------------------------
+
     "chicken",
     "mutton",
     "fish",
@@ -133,7 +142,10 @@ INGREDIENTS = [
     "beef",
     "lamb",
 
-    # Grains / Main ingredients
+    # ---------------------------------------------------------
+    # GRAINS / MAIN INGREDIENTS
+    # ---------------------------------------------------------
+
     "rice",
     "basmati rice",
     "pasta",
@@ -145,7 +157,10 @@ INGREDIENTS = [
     "chickpeas",
     "beans",
 
-    # Vegetables
+    # ---------------------------------------------------------
+    # VEGETABLES
+    # ---------------------------------------------------------
+
     "potato",
     "sweet potato",
     "cauliflower",
@@ -165,7 +180,10 @@ INGREDIENTS = [
     "green chilli",
     "chilli",
 
-    # Dairy / Eggs
+    # ---------------------------------------------------------
+    # DAIRY / EGGS
+    # ---------------------------------------------------------
+
     "paneer",
     "cheese",
     "yogurt",
@@ -176,13 +194,19 @@ INGREDIENTS = [
     "eggs",
     "egg",
 
-    # Fruits
+    # ---------------------------------------------------------
+    # FRUITS
+    # ---------------------------------------------------------
+
     "banana",
     "apple",
     "orange",
     "grapes",
 
-    # Basic ingredients
+    # ---------------------------------------------------------
+    # BASIC INGREDIENTS
+    # ---------------------------------------------------------
+
     "salt",
     "pepper",
     "oil",
@@ -246,6 +270,7 @@ llm = load_llm()
 # =========================================================
 
 def extract_ingredients(text):
+
     """
     Detect ingredients mentioned by the user.
     """
@@ -262,17 +287,29 @@ def extract_ingredients(text):
 
     for ingredient in sorted_ingredients:
 
-        pattern = r"\b" + re.escape(ingredient) + r"\b"
+        pattern = (
+            r"\b"
+            + re.escape(ingredient)
+            + r"\b"
+        )
 
         if re.search(pattern, text):
 
             if ingredient not in found:
-                found.append(ingredient)
+
+                found.append(
+                    ingredient
+                )
 
     return found
 
 
+# =========================================================
+# EXTRACT RECIPE INGREDIENTS
+# =========================================================
+
 def extract_recipe_ingredients(recipe_text):
+
     """
     Extract ingredients from the actual INGREDIENTS
     section of a retrieved recipe.
@@ -281,6 +318,7 @@ def extract_recipe_ingredients(recipe_text):
     recipe_text = recipe_text.lower()
 
     if "ingredients:" not in recipe_text:
+
         return []
 
     ingredients_section = recipe_text.split(
@@ -302,22 +340,31 @@ def extract_recipe_ingredients(recipe_text):
         line = line.strip()
 
         if not line:
+
             continue
 
-        # Remove bullet points if present
+        # Remove bullet points / numbering
         line = re.sub(
-            r"^[•\-\*\d\.\)\s]+",
+            r"^[•*\-0-9.)\s]+",
             "",
             line
         )
 
         if line:
-            ingredients.append(line)
+
+            ingredients.append(
+                line
+            )
 
     return ingredients
 
 
+# =========================================================
+# EXTRACT TIME
+# =========================================================
+
 def extract_time(text):
+
     """
     Extract cooking time in minutes.
     """
@@ -325,20 +372,30 @@ def extract_time(text):
     text = text.lower()
 
     patterns = [
+
         r"(\d+)\s*minutes?",
+
         r"(\d+)\s*mins?",
+
         r"(\d+)\s*hours?"
+
     ]
 
     for pattern in patterns:
 
-        match = re.search(pattern, text)
+        match = re.search(
+            pattern,
+            text
+        )
 
         if match:
 
-            value = int(match.group(1))
+            value = int(
+                match.group(1)
+            )
 
             if "hour" in pattern:
+
                 value *= 60
 
             return value
@@ -346,49 +403,79 @@ def extract_time(text):
     return None
 
 
+# =========================================================
+# GET RECIPE TIME
+# =========================================================
+
 def get_recipe_time(recipe_text):
 
-    return extract_time(recipe_text)
+    return extract_time(
+        recipe_text
+    )
 
+
+# =========================================================
+# FIND MISSING INGREDIENTS
+# =========================================================
 
 def find_missing_ingredients(
     recipe_ingredients,
     user_ingredients
 ):
+
     """
     Find recipe ingredients that the user does not have.
     """
 
     user_ingredients = [
+
         x.lower().strip()
+
         for x in user_ingredients
+
     ]
 
     missing = []
 
     for recipe_ingredient in recipe_ingredients:
 
-        recipe_ingredient = recipe_ingredient.lower().strip()
+        recipe_ingredient = (
+            recipe_ingredient
+            .lower()
+            .strip()
+        )
 
         found = False
 
         for user_item in user_ingredients:
 
-            user_item = user_item.lower().strip()
+            user_item = (
+                user_item
+                .lower()
+                .strip()
+            )
 
             if (
                 recipe_ingredient in user_item
                 or user_item in recipe_ingredient
             ):
+
                 found = True
+
                 break
 
         if not found:
 
-            missing.append(recipe_ingredient)
+            missing.append(
+                recipe_ingredient
+            )
 
     return missing
 
+
+# =========================================================
+# SUBSTITUTIONS
+# =========================================================
 
 def find_substitution(ingredient):
 
@@ -486,16 +573,22 @@ def find_substitution(ingredient):
 # USER INPUT
 # =========================================================
 
-st.subheader("🥕 What ingredients do you have?")
+st.subheader(
+    "🥕 What ingredients do you have?"
+)
 
 selected_ingredients = st.multiselect(
+
     "Select your available ingredients:",
+
     INGREDIENTS
 )
 
 
 custom_ingredients = st.text_input(
+
     "Or type additional ingredients:",
+
     placeholder="Example: garlic, onion, chicken"
 )
 
@@ -504,13 +597,20 @@ custom_ingredients = st.text_input(
 # COOKING TIME
 # =========================================================
 
-st.subheader("⏱️ Cooking Time")
+st.subheader(
+    "⏱️ Cooking Time"
+)
 
 max_time = st.slider(
+
     "Maximum cooking time (minutes)",
+
     min_value=10,
+
     max_value=180,
+
     value=60,
+
     step=10
 )
 
@@ -520,17 +620,22 @@ max_time = st.slider(
 # =========================================================
 
 user_query = st.text_area(
+
     "🍽️ What do you want to cook?",
+
     placeholder=(
         "Example: I have chicken, rice and onion. "
         "Suggest something quick."
     ),
+
     height=100
 )
 
 
 search_button = st.button(
+
     "🔎 Find Recipes",
+
     use_container_width=True
 )
 
@@ -560,6 +665,7 @@ if search_button:
 
     user_ingredients = selected_ingredients.copy()
 
+
     if custom_ingredients:
 
         custom_found = extract_ingredients(
@@ -575,7 +681,8 @@ if search_button:
                 )
 
 
-    # Also detect ingredients from the complete user query
+    # Also detect ingredients from user query
+
     if user_query:
 
         query_ingredients = extract_ingredients(
@@ -597,30 +704,44 @@ if search_button:
 
     query_parts = []
 
+
     if user_query:
 
         query_parts.append(
             user_query
         )
 
+
     if user_ingredients:
 
         query_parts.append(
+
             "Ingredients: "
             + ", ".join(user_ingredients)
+
         )
 
-    query = " ".join(query_parts)
+
+    query = " ".join(
+        query_parts
+    )
 
 
     # =====================================================
     # RETRIEVE DOCUMENTS
     # =====================================================
 
-    docs = vectorstore.similarity_search(
-        query,
-        k=10
-    )
+    with st.spinner(
+        "🔎 Searching your recipe collection..."
+    ):
+
+        docs = vectorstore.similarity_search(
+
+            query,
+
+            k=10
+
+        )
 
 
     if not docs:
@@ -637,6 +758,7 @@ if search_button:
     # =====================================================
 
     ranked_docs = []
+
 
     for document in docs:
 
@@ -664,6 +786,7 @@ if search_button:
             document.page_content
         )
 
+
         if recipe_time:
 
             if recipe_time <= max_time:
@@ -676,20 +799,32 @@ if search_button:
 
 
         ranked_docs.append(
-            (score, document)
+
+            (
+                score,
+                document
+            )
+
         )
 
 
     ranked_docs.sort(
+
         key=lambda x: x[0],
+
         reverse=True
+
     )
 
 
     # Remove score
+
     ranked_docs = [
+
         document
+
         for score, document in ranked_docs
+
     ]
 
 
@@ -708,60 +843,90 @@ if search_button:
 
         metadata = document.metadata
 
+
         recipe_name = metadata.get(
+
             "recipe_name",
+
             "Recipe"
+
         )
+
 
         category = metadata.get(
+
             "category",
+
             "Unknown"
+
         )
+
 
         cuisine = metadata.get(
+
             "cuisine",
+
             "Unknown"
+
         )
 
+
         recipe_time = get_recipe_time(
+
             recipe_text
+
         )
 
 
         with st.expander(
+
             f"🍴 {recipe_name}"
+
         ):
 
             col1, col2, col3 = st.columns(3)
 
+
             with col1:
 
                 st.write(
+
                     f"**📂 Category:** {category}"
+
                 )
+
 
             with col2:
 
                 st.write(
+
                     f"**🌍 Cuisine:** {cuisine}"
+
                 )
+
 
             with col3:
 
                 if recipe_time:
 
                     st.write(
+
                         f"**⏱️ Time:** "
                         f"{recipe_time} minutes"
+
                     )
 
                 else:
 
                     st.write(
+
                         "**⏱️ Time:** Not available"
+
                     )
 
+
             st.divider()
+
 
             st.write(
                 recipe_text
@@ -773,6 +938,7 @@ if search_button:
     # =====================================================
 
     missing = []
+
 
     if user_ingredients:
 
@@ -787,28 +953,37 @@ if search_button:
 
 
         recipe_ingredients = extract_recipe_ingredients(
+
             best_recipe.page_content
+
         )
 
 
         missing = find_missing_ingredients(
+
             recipe_ingredients,
+
             user_ingredients
+
         )
 
 
         if missing:
 
             st.warning(
+
                 "Missing ingredients: "
                 + ", ".join(missing)
+
             )
 
         else:
 
             st.success(
+
                 "🎉 You have all detected ingredients "
                 "needed for this recipe!"
+
             )
 
 
@@ -826,22 +1001,33 @@ if search_button:
 
 
         shopping_list = "\n".join(
+
             f"- {item}"
+
             for item in missing
+
         )
 
 
         st.text_area(
+
             "Ingredients to buy:",
+
             shopping_list,
+
             height=150
+
         )
 
 
         st.download_button(
+
             "⬇️ Download Shopping List",
+
             shopping_list,
+
             file_name="smartchef_shopping_list.txt"
+
         )
 
 
@@ -861,15 +1047,19 @@ if search_button:
         for ingredient in missing:
 
             alternatives = find_substitution(
+
                 ingredient
+
             )
 
 
             if alternatives:
 
                 st.write(
+
                     f"**{ingredient.title()} →** "
                     + ", ".join(alternatives)
+
                 )
 
 
@@ -879,27 +1069,29 @@ if search_button:
 
     st.divider()
 
-    st.subheader(
-        "🤖 SmartChef AI Recommendation"
-    )
-
 
     context = "\n\n".join(
+
         document.page_content
+
         for document in ranked_docs[:5]
+
     )
 
 
     prompt = f"""
+
 You are SmartChef AI, a recipe recommendation assistant.
 
 The user asked:
 
 {query}
 
+
 The user's available ingredients are:
 
 {", ".join(user_ingredients)}
+
 
 Maximum cooking time:
 
@@ -912,41 +1104,194 @@ knowledge base below.
 Do NOT invent recipes that are not present in the
 retrieved knowledge base.
 
+
 Retrieved recipes:
 
 {context}
 
 
+The system detected these missing ingredients:
+
+{", ".join(missing) if missing else "None"}
+
+
 Give the user:
 
 1. The best matching recipe.
+
 2. Why it matches their ingredients.
+
 3. Cooking time.
+
 4. Missing ingredients, if any.
+
 5. Possible substitutions when appropriate.
+
 6. A short step-by-step preparation method.
+
 
 If none of the retrieved recipes is suitable,
 honestly say that no suitable recipe was found.
 
+
 Keep the answer clear and beginner-friendly.
+
+Do not output JSON.
+
+Do not output metadata.
+
+Do not output fields such as type, svg, extras,
+signature, or other response information.
+
+Return only the recipe recommendation text.
+
 """
 
 
-    try:
+    # =====================================================
+    # GEMINI RESPONSE
+    # =====================================================
 
-        response = llm.invoke(
-            prompt
+    with st.spinner(
+        "👨‍🍳 SmartChef is preparing your recipe..."
+    ):
+
+        try:
+
+            response = llm.invoke(
+                prompt
+            )
+
+
+        except Exception as e:
+
+            st.error(
+                f"Gemini error: {e}"
+            )
+
+            st.stop()
+
+
+    # =====================================================
+    # EXTRACT ONLY TEXT FROM GEMINI RESPONSE
+    # =====================================================
+
+    content = getattr(
+
+        response,
+
+        "content",
+
+        ""
+
+    )
+
+
+    answer = ""
+
+
+    # -----------------------------------------------------
+    # CASE 1: Normal string
+    # -----------------------------------------------------
+
+    if isinstance(
+
+        content,
+
+        str
+
+    ):
+
+        answer = content
+
+
+    # -----------------------------------------------------
+    # CASE 2: List of content blocks
+    # -----------------------------------------------------
+
+    elif isinstance(
+
+        content,
+
+        list
+
+    ):
+
+        text_parts = []
+
+
+        for block in content:
+
+            if isinstance(
+
+                block,
+
+                str
+
+            ):
+
+                text_parts.append(
+                    block
+                )
+
+
+            elif isinstance(
+
+                block,
+
+                dict
+
+            ):
+
+                if block.get(
+                    "type"
+                ) == "text":
+
+                    text_value = block.get(
+                        "text",
+                        ""
+                    )
+
+                    if isinstance(
+                        text_value,
+                        str
+                    ):
+
+                        text_parts.append(
+                            text_value
+                        )
+
+
+        answer = "\n".join(
+            text_parts
         )
 
-        st.write(
-            response.content
+
+    # -----------------------------------------------------
+    # CASE 3: Unknown format
+    # -----------------------------------------------------
+
+    else:
+
+        answer = str(
+            content
         )
 
-    except Exception as e:
 
-        st.error(
-            f"Gemini error: {e}"
+    # =====================================================
+    # DISPLAY ONLY THE ANSWER
+    # =====================================================
+
+    if answer.strip():
+
+        st.markdown(
+            answer.strip()
+        )
+
+    else:
+
+        st.warning(
+            "SmartChef could not generate a recipe recommendation."
         )
 
 
@@ -970,19 +1315,29 @@ Keep the answer clear and beginner-friendly.
 
         metadata = document.metadata
 
+
         recipe_name = metadata.get(
+
             "recipe_name",
+
             "Recipe"
+
         )
 
+
         source_name = metadata.get(
+
             "source",
+
             "TheMealDB"
+
         )
 
 
         with st.expander(
+
             f"🍽️ {recipe_name}"
+
         ):
 
             col1, col2, col3 = st.columns(3)
@@ -991,23 +1346,29 @@ Keep the answer clear and beginner-friendly.
             with col1:
 
                 st.write(
+
                     f"**📄 Source:** {source_name}"
+
                 )
 
 
             with col2:
 
                 st.write(
+
                     f"**📂 Category:** "
                     f"{metadata.get('category', 'Unknown')}"
+
                 )
 
 
             with col3:
 
                 st.write(
+
                     f"**🌍 Cuisine:** "
                     f"{metadata.get('cuisine', 'Unknown')}"
+
                 )
 
 
@@ -1035,7 +1396,9 @@ col1, col2, col3, col4 = st.columns(4)
 
 with col1:
 
-    st.write("### 1️⃣ API")
+    st.write(
+        "### 1️⃣ API"
+    )
 
     st.write(
         "Recipes are collected from TheMealDB."
@@ -1044,7 +1407,9 @@ with col1:
 
 with col2:
 
-    st.write("### 2️⃣ Embeddings")
+    st.write(
+        "### 2️⃣ Embeddings"
+    )
 
     st.write(
         "Recipes are converted into numerical vectors."
@@ -1053,7 +1418,9 @@ with col2:
 
 with col3:
 
-    st.write("### 3️⃣ RAG")
+    st.write(
+        "### 3️⃣ RAG"
+    )
 
     st.write(
         "FAISS retrieves the most relevant recipes."
@@ -1062,7 +1429,9 @@ with col3:
 
 with col4:
 
-    st.write("### 4️⃣ Gemini")
+    st.write(
+        "### 4️⃣ Gemini"
+    )
 
     st.write(
         "Gemini generates the final recommendation."
