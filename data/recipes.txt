@@ -1,0 +1,1290 @@
+CHICKEN FRIED RICE
+
+CATEGORY: Non-Vegetarian
+CUISINE: Chinese
+TYPE: Main Course
+
+INGREDIENTS:
+Chicken
+Rice
+Onion
+Carrot
+Capsicum
+Green peas
+Garlic
+Soy sauce
+Oil
+Salt
+Pepper
+
+COOKING TIME: 25 minutes
+
+INSTRUCTIONS:
+
+1. Cook the rice and keep it aside.
+2. Heat oil in a pan.
+3. Add garlic, onion, carrot, capsicum and peas.
+4. Add chicken and cook completely.
+5. Add cooked rice and soy sauce.
+6. Season with salt and pepper.
+7. Mix well and serve hot.
+
+TIPS:
+Use chilled cooked rice for better fried rice.
+
+VEGETABLE FRIED RICE
+
+CATEGORY: Vegetarian
+CUISINE: Chinese
+TYPE: Main Course
+
+INGREDIENTS:
+Rice
+Carrot
+Capsicum
+Green peas
+Cabbage
+Onion
+Garlic
+Soy sauce
+Oil
+Salt
+Pepper
+
+COOKING TIME: 20 minutes
+
+INSTRUCTIONS:
+
+1. Cook the rice and keep it aside.
+2. Heat oil in a pan.
+3. Add garlic and vegetables.
+4. Stir-fry until slightly cooked.
+5. Add rice and soy sauce.
+6. Add salt and pepper.
+7. Mix well and serve.
+
+TIPS:
+Use high heat for restaurant-style fried rice.
+
+CHICKEN BIRYANI
+
+CATEGORY: Non-Vegetarian
+CUISINE: Indian
+TYPE: Main Course
+
+INGREDIENTS:
+Chicken
+Basmati rice
+Onion
+Tomato
+Ginger
+Garlic
+Green chilli
+Yogurt
+Oil
+Chilli
+Pepper
+Salt
+Water
+
+COOKING TIME: 60 minutes
+
+INSTRUCTIONS:
+
+1. Marinate chicken with yogurt, salt and spices.
+2. Cook onions in oil until golden.
+3. Add ginger, garlic, green chilli and tomato.
+4. Add chicken and cook.
+5. Add partially cooked basmati rice.
+6. Cover and cook on low heat until completely done.
+7. Serve hot.
+
+TIPS:
+Allow the biryani to rest for a few minutes before serving.
+
+VEGETABLE PULAO
+
+CATEGORY: Vegetarian
+CUISINE: Indian
+TYPE: Main Course
+
+INGREDIENTS:
+Basmati rice
+Carrot
+Green peas
+Beans
+Cauliflower
+Onion
+Ginger
+Garlic
+Green chilli
+Oil
+Salt
+Water
+
+COOKING TIME: 30 minutes
+
+INSTRUCTIONS:
+
+1. Wash the rice.
+2. Heat oil and cook onion, ginger and garlic.
+3. Add vegetables and cook briefly.
+4. Add rice and water.
+5. Add salt.
+6. Cover and cook until the rice is tender.
+7. Serve hot.
+
+PANEER BUTTER MASALA
+
+CATEGORY: Vegetarian
+CUISINE: Indian
+TYPE: Main Course
+
+INGREDIENTS:
+Paneer
+Tomato
+Onion
+Garlic
+Ginger
+Butter
+Cream
+Chilli
+Pepper
+Salt
+Oil
+Water
+
+COOKING TIME: 35 minutes
+
+INSTRUCTIONS:
+
+1. Heat butter and oil.
+2. Cook onion, garlic and ginger.
+3. Add tomatoes and cook until soft.
+4. Blend into a smooth sauce.
+5. Add chilli, pepper and salt.
+6. Add paneer and cream.
+7. Simmer for a few minutes.
+8. Serve with rice or bread.
+
+TIPS:
+Do not overcook the paneer.
+
+ALOO GOBI
+
+CATEGORY: Vegetarian
+CUISINE: Indian
+TYPE: Main Course
+
+INGREDIENTS:
+Potato
+Cauliflower
+Onion
+Tomato
+Ginger
+Garlic
+Green chilli
+Oil
+Salt
+Chilli
+Pepper
+
+COOKING TIME: 30 minutes
+
+INSTRUCTIONS:
+
+1. Cut potato and cauliflower into pieces.
+2. Heat oil in a pan.
+3. Add onion, ginger, garlic and green chilli.
+4. Add tomato and cook.
+5. Add potato and cauliflower.
+6. Add salt, chilli and pepper.
+7. Cover and cook until vegetables are tender.
+8. Serve hot.
+
+CHANA MASALA
+
+CATEGORY: Vegetarian
+CUISINE: Indian
+TYPE: Main Course
+
+INGREDIENTS:
+Chickpeas
+Onion
+Tomato
+Ginger
+Garlic
+Green chilli
+Oil
+Chilli
+Pepper
+Salt
+Water
+
+COOKING TIME: 35 minutes
+
+INSTRUCTIONS:
+
+1. Cook the chickpeas until soft.
+2. Heat oil and cook onion.
+3. Add ginger, garlic and green chilli.
+4. Add tomato and spices.
+5. Add cooked chickpeas.
+6. Add water and simmer.
+7. Serve hot with rice or bread.
+
+VEGETABLE PASTA
+
+CATEGORY: Vegetarian
+CUISINE: Italian
+TYPE: Main Course
+
+INGREDIENTS:
+Pasta
+Tomato
+Onion
+Garlic
+Capsicum
+Carrot
+Cheese
+Oil
+Salt
+Pepper
+
+COOKING TIME: 25 minutes
+
+INSTRUCTIONS:
+
+1. Boil pasta until tender.
+2. Heat oil in a pan.
+3. Add garlic and onion.
+4. Add carrot and capsicum.
+5. Add tomato.
+6. Add cooked pasta.
+7. Season with salt and pepper.
+8. Add cheese and serve.
+
+CREAMY GARLIC PASTA
+
+CATEGORY: Vegetarian
+CUISINE: Italian
+TYPE: Main Course
+
+INGREDIENTS:
+Pasta
+Garlic
+Butter
+Milk
+Cream
+Cheese
+Pepper
+Salt
+
+COOKING TIME: 25 minutes
+
+INSTRUCTIONS:
+
+1. Boil pasta.
+2. Melt butter in a pan.
+3. Add garlic and cook briefly.
+4. Add milk and cream.
+5. Add cheese, salt and pepper.
+6. Add cooked pasta.
+7. Mix well and serve.
+
+VEGETABLE NOODLES
+
+CATEGORY: Vegetarian
+CUISINE: Chinese
+TYPE: Main Course
+
+INGREDIENTS:
+Noodles
+Carrot
+Capsicum
+Cabbage
+Onion
+Garlic
+Soy sauce
+Oil
+Salt
+Pepper
+
+COOKING TIME: 20 minutes
+
+INSTRUCTIONS:
+
+1. Boil noodles and drain.
+2. Heat oil.
+3. Add garlic and vegetables.
+4. Stir-fry the vegetables.
+5. Add noodles and soy sauce.
+6. Add salt and pepper.
+7. Mix and serve hot.
+
+CHICKEN NOODLES
+
+CATEGORY: Non-Vegetarian
+CUISINE: Chinese
+TYPE: Main Course
+
+INGREDIENTS:
+Noodles
+Chicken
+Carrot
+Capsicum
+Cabbage
+Onion
+Garlic
+Soy sauce
+Oil
+Salt
+Pepper
+
+COOKING TIME: 25 minutes
+
+INSTRUCTIONS:
+
+1. Boil noodles and drain.
+2. Heat oil.
+3. Add garlic and onion.
+4. Add chicken and cook completely.
+5. Add vegetables.
+6. Add noodles and soy sauce.
+7. Season with salt and pepper.
+8. Serve hot.
+
+TOMATO RICE
+
+CATEGORY: Vegetarian
+CUISINE: Indian
+TYPE: Main Course
+
+INGREDIENTS:
+Rice
+Tomato
+Onion
+Garlic
+Ginger
+Green chilli
+Oil
+Salt
+Chilli
+Water
+
+COOKING TIME: 25 minutes
+
+INSTRUCTIONS:
+
+1. Cook the rice.
+2. Heat oil and cook onion.
+3. Add garlic, ginger and green chilli.
+4. Add tomato and cook until soft.
+5. Add cooked rice.
+6. Add salt and chilli.
+7. Mix well and serve.
+
+VEGETABLE SOUP
+
+CATEGORY: Vegetarian
+CUISINE: International
+TYPE: Soup
+
+INGREDIENTS:
+Carrot
+Cabbage
+Beans
+Cauliflower
+Onion
+Garlic
+Pepper
+Salt
+Water
+
+COOKING TIME: 25 minutes
+
+INSTRUCTIONS:
+
+1. Heat a little oil in a pot.
+2. Add onion and garlic.
+3. Add vegetables.
+4. Add water.
+5. Cook until vegetables are tender.
+6. Add salt and pepper.
+7. Serve hot.
+
+CHICKEN SOUP
+
+CATEGORY: Non-Vegetarian
+CUISINE: International
+TYPE: Soup
+
+INGREDIENTS:
+Chicken
+Carrot
+Onion
+Garlic
+Pepper
+Salt
+Water
+
+COOKING TIME: 35 minutes
+
+INSTRUCTIONS:
+
+1. Add chicken and water to a pot.
+2. Add onion, garlic and carrot.
+3. Cook until chicken is completely cooked.
+4. Remove any excess foam.
+5. Add salt and pepper.
+6. Serve hot.
+
+POTATO OMELETTE
+
+CATEGORY: Vegetarian
+CUISINE: International
+TYPE: Breakfast
+
+INGREDIENTS:
+Eggs
+Potato
+Onion
+Oil
+Salt
+Pepper
+
+COOKING TIME: 20 minutes
+
+INSTRUCTIONS:
+
+1. Slice potato and onion.
+2. Cook them in oil until soft.
+3. Beat the eggs with salt and pepper.
+4. Pour eggs over the vegetables.
+5. Cook both sides.
+6. Serve hot.
+
+EGG FRIED RICE
+
+CATEGORY: Vegetarian
+CUISINE: Chinese
+TYPE: Main Course
+
+INGREDIENTS:
+Eggs
+Rice
+Onion
+Carrot
+Capsicum
+Garlic
+Soy sauce
+Oil
+Salt
+Pepper
+
+COOKING TIME: 20 minutes
+
+INSTRUCTIONS:
+
+1. Cook the rice.
+2. Heat oil and scramble the eggs.
+3. Add garlic and vegetables.
+4. Add cooked rice.
+5. Add soy sauce.
+6. Season with salt and pepper.
+7. Mix and serve.
+
+MASALA DOSA
+
+CATEGORY: Vegetarian
+CUISINE: Indian
+TYPE: Breakfast
+
+INGREDIENTS:
+Rice
+Potato
+Onion
+Green chilli
+Ginger
+Oil
+Salt
+
+COOKING TIME: 30 minutes
+
+INSTRUCTIONS:
+
+1. Prepare dosa batter using fermented rice batter.
+2. Prepare potato filling with onion, chilli and ginger.
+3. Heat a dosa pan.
+4. Spread batter into a thin dosa.
+5. Add potato filling.
+6. Fold and serve hot.
+
+IDLI
+
+CATEGORY: Vegetarian
+CUISINE: Indian
+TYPE: Breakfast
+
+INGREDIENTS:
+Rice
+Salt
+Water
+
+COOKING TIME: 30 minutes
+
+INSTRUCTIONS:
+
+1. Prepare fermented rice batter.
+2. Add salt.
+3. Pour batter into idli moulds.
+4. Steam until completely cooked.
+5. Serve hot.
+
+VEGETABLE UPMA
+
+CATEGORY: Vegetarian
+CUISINE: Indian
+TYPE: Breakfast
+
+INGREDIENTS:
+Semolina
+Onion
+Carrot
+Green peas
+Green chilli
+Ginger
+Oil
+Salt
+Water
+
+COOKING TIME: 20 minutes
+
+INSTRUCTIONS:
+
+1. Roast semolina lightly.
+2. Heat oil in a pan.
+3. Add onion, ginger and green chilli.
+4. Add vegetables.
+5. Add water and salt.
+6. Slowly add semolina.
+7. Stir until thick and cooked.
+8. Serve hot.
+
+VEGETABLE SANDWICH
+
+CATEGORY: Vegetarian
+CUISINE: International
+TYPE: Snack
+
+INGREDIENTS:
+Bread
+Tomato
+Onion
+Capsicum
+Cheese
+Butter
+Salt
+Pepper
+
+COOKING TIME: 10 minutes
+
+INSTRUCTIONS:
+
+1. Slice the vegetables.
+2. Spread butter on bread.
+3. Add vegetables and cheese.
+4. Season with salt and pepper.
+5. Toast until golden.
+6. Serve hot.
+
+GRILLED CHEESE SANDWICH
+
+CATEGORY: Vegetarian
+CUISINE: International
+TYPE: Snack
+
+INGREDIENTS:
+Bread
+Cheese
+Butter
+Pepper
+Salt
+
+COOKING TIME: 10 minutes
+
+INSTRUCTIONS:
+
+1. Place cheese between two bread slices.
+2. Spread butter on the outside.
+3. Heat a pan.
+4. Toast both sides until golden.
+5. Serve hot.
+
+POTATO FRIES
+
+CATEGORY: Vegetarian
+CUISINE: International
+TYPE: Snack
+
+INGREDIENTS:
+Potato
+Oil
+Salt
+Pepper
+
+COOKING TIME: 25 minutes
+
+INSTRUCTIONS:
+
+1. Cut potatoes into thin strips.
+2. Wash and dry them.
+3. Cook in hot oil until golden.
+4. Drain excess oil.
+5. Add salt and pepper.
+6. Serve hot.
+
+CHICKEN WRAP
+
+CATEGORY: Non-Vegetarian
+CUISINE: International
+TYPE: Snack
+
+INGREDIENTS:
+Chicken
+Bread
+Onion
+Tomato
+Capsicum
+Cheese
+Pepper
+Salt
+Oil
+
+COOKING TIME: 25 minutes
+
+INSTRUCTIONS:
+
+1. Cook chicken with salt and pepper.
+2. Slice the vegetables.
+3. Place chicken and vegetables on bread.
+4. Add cheese.
+5. Roll into a wrap.
+6. Serve.
+
+CHICKEN BURGER
+
+CATEGORY: Non-Vegetarian
+CUISINE: International
+TYPE: Fast Food
+
+INGREDIENTS:
+Chicken
+Bread
+Onion
+Tomato
+Cheese
+Oil
+Salt
+Pepper
+
+COOKING TIME: 30 minutes
+
+INSTRUCTIONS:
+
+1. Prepare a chicken patty.
+2. Season with salt and pepper.
+3. Cook the chicken completely.
+4. Toast the burger bread.
+5. Add chicken, onion, tomato and cheese.
+6. Serve hot.
+
+VEGETABLE BURGER
+
+CATEGORY: Vegetarian
+CUISINE: International
+TYPE: Fast Food
+
+INGREDIENTS:
+Potato
+Carrot
+Green peas
+Bread
+Onion
+Tomato
+Cheese
+Oil
+Salt
+Pepper
+
+COOKING TIME: 30 minutes
+
+INSTRUCTIONS:
+
+1. Cook potato, carrot and peas.
+2. Mash them together.
+3. Shape into a patty.
+4. Cook the patty until golden.
+5. Toast the bread.
+6. Add vegetables, patty and cheese.
+7. Serve.
+
+PANEER WRAP
+
+CATEGORY: Vegetarian
+CUISINE: Indian
+TYPE: Snack
+
+INGREDIENTS:
+Paneer
+Onion
+Tomato
+Capsicum
+Bread
+Cheese
+Oil
+Salt
+Pepper
+
+COOKING TIME: 20 minutes
+
+INSTRUCTIONS:
+
+1. Cut paneer into pieces.
+2. Cook paneer with vegetables.
+3. Add salt and pepper.
+4. Place the mixture on bread.
+5. Add cheese.
+6. Roll and serve.
+
+MUSHROOM PASTA
+
+CATEGORY: Vegetarian
+CUISINE: Italian
+TYPE: Main Course
+
+INGREDIENTS:
+Pasta
+Mushroom
+Garlic
+Onion
+Butter
+Cream
+Cheese
+Pepper
+Salt
+
+COOKING TIME: 25 minutes
+
+INSTRUCTIONS:
+
+1. Boil pasta.
+2. Melt butter in a pan.
+3. Add garlic, onion and mushrooms.
+4. Cook until mushrooms are soft.
+5. Add cream and cheese.
+6. Add pasta.
+7. Season with salt and pepper.
+8. Serve.
+
+MEXICAN BEAN TACOS
+
+CATEGORY: Vegetarian
+CUISINE: Mexican
+TYPE: Main Course
+
+INGREDIENTS:
+Beans
+Tomato
+Onion
+Capsicum
+Cheese
+Bread
+Chilli
+Salt
+Pepper
+
+COOKING TIME: 20 minutes
+
+INSTRUCTIONS:
+
+1. Cook beans until soft.
+2. Cook onion, tomato and capsicum.
+3. Add beans and chilli.
+4. Season with salt and pepper.
+5. Place the mixture in bread.
+6. Add cheese.
+7. Serve.
+
+VEGETABLE QUESADILLA
+
+CATEGORY: Vegetarian
+CUISINE: Mexican
+TYPE: Snack
+
+INGREDIENTS:
+Bread
+Capsicum
+Onion
+Tomato
+Cheese
+Oil
+Salt
+Pepper
+
+COOKING TIME: 15 minutes
+
+INSTRUCTIONS:
+
+1. Cook onion, tomato and capsicum.
+2. Place vegetables and cheese inside bread.
+3. Fold the bread.
+4. Cook both sides until golden.
+5. Serve hot.
+
+THAI VEGETABLE NOODLES
+
+CATEGORY: Vegetarian
+CUISINE: Thai
+TYPE: Main Course
+
+INGREDIENTS:
+Noodles
+Carrot
+Capsicum
+Cabbage
+Onion
+Garlic
+Soy sauce
+Oil
+Salt
+Pepper
+
+COOKING TIME: 25 minutes
+
+INSTRUCTIONS:
+
+1. Boil noodles.
+2. Stir-fry garlic and vegetables.
+3. Add noodles.
+4. Add soy sauce.
+5. Season with salt and pepper.
+6. Mix well and serve.
+
+GARLIC BUTTER MUSHROOMS
+
+CATEGORY: Vegetarian
+CUISINE: International
+TYPE: Side Dish
+
+INGREDIENTS:
+Mushroom
+Butter
+Garlic
+Pepper
+Salt
+
+COOKING TIME: 15 minutes
+
+INSTRUCTIONS:
+
+1. Clean and slice mushrooms.
+2. Melt butter.
+3. Add garlic.
+4. Add mushrooms.
+5. Cook until soft.
+6. Season with salt and pepper.
+7. Serve hot.
+
+CREAMY TOMATO SOUP
+
+CATEGORY: Vegetarian
+CUISINE: International
+TYPE: Soup
+
+INGREDIENTS:
+Tomato
+Onion
+Garlic
+Cream
+Butter
+Pepper
+Salt
+Water
+
+COOKING TIME: 25 minutes
+
+INSTRUCTIONS:
+
+1. Cook onion and garlic in butter.
+2. Add chopped tomatoes.
+3. Add water and cook until soft.
+4. Blend until smooth.
+5. Add cream.
+6. Season with salt and pepper.
+7. Serve hot.
+
+CHOCOLATE PANCAKES
+
+CATEGORY: Vegetarian
+CUISINE: International
+TYPE: Breakfast
+
+INGREDIENTS:
+Flour
+Milk
+Eggs
+Sugar
+Butter
+Chocolate
+Salt
+
+COOKING TIME: 20 minutes
+
+INSTRUCTIONS:
+
+1. Mix flour, milk, eggs, sugar and salt.
+2. Add chocolate.
+3. Heat a pan with butter.
+4. Pour batter into the pan.
+5. Cook both sides.
+6. Serve warm.
+
+BANANA PANCAKES
+
+CATEGORY: Vegetarian
+CUISINE: International
+TYPE: Breakfast
+
+INGREDIENTS:
+Banana
+Flour
+Milk
+Eggs
+Sugar
+Butter
+Salt
+
+COOKING TIME: 15 minutes
+
+INSTRUCTIONS:
+
+1. Mash the banana.
+2. Mix with flour, milk, eggs and sugar.
+3. Heat butter in a pan.
+4. Pour the batter.
+5. Cook both sides.
+6. Serve warm.
+
+FRENCH TOAST
+
+CATEGORY: Vegetarian
+CUISINE: International
+TYPE: Breakfast
+
+INGREDIENTS:
+Bread
+Eggs
+Milk
+Butter
+Sugar
+Salt
+
+COOKING TIME: 15 minutes
+
+INSTRUCTIONS:
+
+1. Beat eggs with milk, sugar and salt.
+2. Dip bread into the mixture.
+3. Melt butter in a pan.
+4. Cook bread on both sides.
+5. Serve warm.
+
+CHOCOLATE PUDDING
+
+CATEGORY: Vegetarian
+CUISINE: International
+TYPE: Dessert
+
+INGREDIENTS:
+Milk
+Sugar
+Chocolate
+Cream
+
+COOKING TIME: 20 minutes
+
+INSTRUCTIONS:
+
+1. Heat milk gently.
+2. Add sugar and chocolate.
+3. Stir until chocolate melts.
+4. Add cream.
+5. Cook until slightly thick.
+6. Chill before serving.
+
+FRUIT SALAD
+
+CATEGORY: Vegetarian
+CUISINE: International
+TYPE: Dessert
+
+INGREDIENTS:
+Apple
+Banana
+Orange
+Grapes
+Cream
+
+COOKING TIME: 10 minutes
+
+INSTRUCTIONS:
+
+1. Wash and cut the fruits.
+2. Add them to a bowl.
+3. Add cream.
+4. Mix gently.
+5. Serve chilled.
+
+VEGETABLE FRITTATA
+
+CATEGORY: Vegetarian
+CUISINE: Italian
+TYPE: Breakfast
+
+INGREDIENTS:
+Eggs
+Onion
+Tomato
+Capsicum
+Cheese
+Butter
+Salt
+Pepper
+
+COOKING TIME: 25 minutes
+
+INSTRUCTIONS:
+
+1. Beat the eggs with salt and pepper.
+2. Cook onion, tomato and capsicum in butter.
+3. Add the eggs.
+4. Add cheese.
+5. Cook until the eggs are completely set.
+6. Serve hot.
+
+CHICKEN PASTA
+
+CATEGORY: Non-Vegetarian
+CUISINE: Italian
+TYPE: Main Course
+
+INGREDIENTS:
+Pasta
+Chicken
+Tomato
+Onion
+Garlic
+Cheese
+Oil
+Salt
+Pepper
+
+COOKING TIME: 30 minutes
+
+INSTRUCTIONS:
+
+1. Boil pasta.
+2. Cook chicken in oil.
+3. Add onion and garlic.
+4. Add tomato.
+5. Add cooked pasta.
+6. Add cheese.
+7. Season with salt and pepper.
+8. Serve hot.
+
+CHICKEN CURRY
+
+CATEGORY: Non-Vegetarian
+CUISINE: Indian
+TYPE: Main Course
+
+INGREDIENTS:
+Chicken
+Onion
+Tomato
+Garlic
+Ginger
+Green chilli
+Oil
+Salt
+Pepper
+Chilli
+Water
+
+COOKING TIME: 40 minutes
+
+INSTRUCTIONS:
+
+1. Heat oil in a pan.
+2. Add onion and cook until golden.
+3. Add garlic, ginger and green chilli.
+4. Add tomato and cook until soft.
+5. Add chicken and spices.
+6. Cook the chicken completely.
+7. Add water and simmer.
+8. Serve with rice or bread.
+
+MUTTON CURRY
+
+CATEGORY: Non-Vegetarian
+CUISINE: Indian
+TYPE: Main Course
+
+INGREDIENTS:
+Mutton
+Onion
+Tomato
+Garlic
+Ginger
+Green chilli
+Oil
+Salt
+Pepper
+Chilli
+Water
+
+COOKING TIME: 60 minutes
+
+INSTRUCTIONS:
+
+1. Heat oil in a pan.
+2. Add onion and cook until golden.
+3. Add garlic, ginger and green chilli.
+4. Add tomato and cook until soft.
+5. Add mutton and spices.
+6. Cook until the mutton is completely done.
+7. Add water and simmer.
+8. Serve hot with rice or bread.
+
+FISH CURRY
+
+CATEGORY: Non-Vegetarian
+CUISINE: Indian
+TYPE: Main Course
+
+INGREDIENTS:
+Fish
+Tomato
+Onion
+Garlic
+Ginger
+Green chilli
+Oil
+Chilli
+Salt
+Water
+
+COOKING TIME: 35 minutes
+
+INSTRUCTIONS:
+
+1. Heat oil in a pan.
+2. Cook onion, garlic and ginger.
+3. Add tomato and chilli.
+4. Add water and bring to a simmer.
+5. Add fish carefully.
+6. Cook until the fish is completely done.
+7. Serve hot with rice.
+
+VEGETABLE STIR FRY
+
+CATEGORY: Vegetarian
+CUISINE: Chinese
+TYPE: Side Dish
+
+INGREDIENTS:
+Carrot
+Capsicum
+Cabbage
+Beans
+Green peas
+Onion
+Garlic
+Soy sauce
+Oil
+Salt
+Pepper
+
+COOKING TIME: 15 minutes
+
+INSTRUCTIONS:
+
+1. Heat oil in a pan.
+2. Add garlic and onion.
+3. Add all vegetables.
+4. Stir-fry on high heat.
+5. Add soy sauce.
+6. Season with salt and pepper.
+7. Serve hot.
+
+DAL RICE
+
+CATEGORY: Vegetarian
+CUISINE: Indian
+TYPE: Main Course
+
+INGREDIENTS:
+Rice
+Lentils
+Onion
+Tomato
+Garlic
+Ginger
+Green chilli
+Oil
+Salt
+Chilli
+Water
+
+COOKING TIME: 30 minutes
+
+INSTRUCTIONS:
+
+1. Cook rice separately.
+2. Cook lentils until soft.
+3. Heat oil and cook onion.
+4. Add garlic, ginger and green chilli.
+5. Add tomato and chilli.
+6. Add cooked lentils.
+7. Add water and simmer.
+8. Serve with rice.
+
+VEGETABLE BOWL
+
+CATEGORY: Vegetarian
+CUISINE: International
+TYPE: Healthy
+
+INGREDIENTS:
+Rice
+Carrot
+Capsicum
+Green peas
+Beans
+Cabbage
+Tomato
+Salt
+Pepper
+Oil
+
+COOKING TIME: 20 minutes
+
+INSTRUCTIONS:
+
+1. Cook rice.
+2. Stir-fry the vegetables with oil.
+3. Add salt and pepper.
+4. Place rice in a bowl.
+5. Add cooked vegetables.
+6. Serve warm.

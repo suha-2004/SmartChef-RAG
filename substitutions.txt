@@ -1,0 +1,97 @@
+YOGURT
+Substitutions:
+- Buttermilk
+- Coconut milk
+- Cream
+
+Use case:
+Yogurt can be replaced with buttermilk in marinades and curries.
+Coconut milk can be used when a creamy texture is required.
+Cream can be used when richness is required.
+
+EGG
+Substitutions:
+- Tofu
+- Mashed potato
+- Flaxseed mixture
+
+Use case:
+Tofu can replace egg in some savory dishes.
+Mashed potato can help bind mixtures.
+Flaxseed mixture can be used as a binding ingredient.
+
+BUTTER
+Substitutions:
+- Oil
+- Ghee
+- Margarine
+
+Use case:
+Oil can replace butter for frying and cooking.
+Ghee can replace butter when a richer flavor is desired.
+
+MILK
+Substitutions:
+- Coconut milk
+- Soy milk
+- Oat milk
+
+Use case:
+Plant-based milk can replace regular milk in many recipes.
+
+CHEESE
+Substitutions:
+- Paneer
+- Tofu
+- Nutritional yeast
+
+Use case:
+Paneer or tofu can provide a different protein-rich texture.
+Nutritional yeast can provide a cheese-like savory flavor.
+
+CREAM
+Substitutions:
+- Coconut milk
+- Yogurt
+- Milk
+
+Use case:
+Coconut milk can provide creaminess.
+Yogurt can provide a tangy creamy texture.
+
+POTATO
+Substitutions:
+- Sweet potato
+- Cauliflower
+
+Use case:
+Sweet potato can replace potato in some curries.
+Cauliflower can be used as a lower-starch alternative.
+
+RICE
+Substitutions:
+- Quinoa
+- Couscous
+
+Use case:
+Quinoa or couscous can replace rice in some dishes,
+but the cooking method may need to be adjusted.
+
+OIL
+Substitutions:
+- Butter
+- Ghee
+
+Use case:
+Butter or ghee can be used for cooking when appropriate.
+
+TOMATO
+Substitutions:
+- Tomato puree
+- Tamarind
+- Red bell pepper
+
+Use case:
+Tomato puree works well when tomato flavor is required.
+Tamarind can provide acidity in curries.
+Red bell pepper can provide sweetness and body.
